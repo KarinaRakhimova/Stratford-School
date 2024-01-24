@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import License from './components/License';
+import KidsProgramms from './components/KidsProgramms';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter> 
+    <Routes>
+      <Route path='/' element={<App/>}/>
+      <Route path='/license' element={<License/>}/>
+      <Route path='/kidsprogramms' element={<KidsProgramms/>}/>
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
