@@ -12,15 +12,11 @@ import Menu from "./components/Menu";
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Menu/>
-      <section className="main">
-        <p className="main__description">Центр изучения иностранных языков Stratford School</p>
-        <img className="main__image" src={mainImage} alt="mainImage"/>
-      </section>
-      
-      
-      <section className="programs">
+
+
+
+
+      {/* <section className="programs">
         <figure className="programs__item">
           <figcaption className="programs__title">Программы длы взрослых</figcaption>
           <img className="programs__image" src={adultProgramsImage} alt="adult"/>
@@ -34,8 +30,8 @@ function App() {
           <figcaption className="programs__title">Программы подготовки к экзаменам</figcaption>
           <img  className="programs__image" src={examsProgramsImage} alt="exams"/>
         </figure>
-        
-      </section>
+
+      </section> */}
     </div>
   );
 }

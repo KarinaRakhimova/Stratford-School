@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.main__image {
+  width: 50%;
+  border-radius: 30px;
+}
+
+.main__description {
+  max-width: 40%;
+  font-size: 56px;
+  font-weight: 900;
+}
