@@ -1,6 +1,6 @@
-* {
+/* * {
   border: red 1px solid;
-}
+} */
 
 .App {
   text-align: center;
@@ -9,62 +9,11 @@
   background-color: white;
 }
 
-.App-header {
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 50px;
-}
-
-.header__link {
-  text-decoration: none;
-}
 
 
-.header__motto {
-  margin: 0;
-}
 
-.header__button {
-  background-color: #455947;
-  border-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: start;
-  padding-inline: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.header__links {
-  display: flex;
-  gap: 30px;
-  align-items: start;
-}
-
-.menu {
-  display: flex;
-  justify-content: space-around;
-  margin: 50px 0 50px;
-  padding: 0;
-  color: #9E2A2B;
-  font-size: 30px;
-  font-weight: 600;
-
-}
-
-.menu__item {
-  list-style-type: none;
-}
 
 .license__scan {
   width: 50%;
 }
 
-.program__container {
-  display: flex;
-
-}

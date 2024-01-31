@@ -1,5 +1,56 @@
 .programs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 140px;
+  grid-template-rows: min-content;
+  column-gap: 30px;
+  margin: 50px;
+}
+
+.programs__item {
+  text-decoration: none;
+}
+
+.programs__container {
+  position: relative;
+  overflow: hidden;
+}
+
+.programs__title {
+  margin: 0 0 15px;
+  padding: 15px 15px;
+  border-radius: 15px;
+  background-color: rgb(61, 114, 86);
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+.programs__image {
+  max-width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+.programs__description {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(61, 114, 86, 0.5);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  transition: 0.5s;
+  /* text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; */
+}
+
+.programs__item:hover .programs__description {
+  top: 0;
+  left: 0;
 }

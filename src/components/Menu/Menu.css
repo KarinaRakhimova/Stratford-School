@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 50px;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
+.menu__item {
+  text-decoration: none;
+  color: #9E2A2B;
+  transition: 0.3s;
+}
+
+.menu__item:hover {
+  color: #9E2A2B80;
+}
