@@ -1,0 +1,38 @@
+.exams {
+  color: wheat;
+  font-family: "Jost";
+  font-size:calc(8px + 14 * (100vw - 320px) / 960);
+  line-height: 1.35;
+  background-color: #334B35;
+  padding: 0 100px 50px;
+}
+
+.exams__image {
+  width: 75%;
+  border-radius: 15px;
+}
+
+.exams__list {
+  text-align: start;
+  padding: 0 0 0 15px;
+}
+
+.exams__text {
+  text-align: justify;
+}
+
+.exams__span {
+  font-weight: 900;
+}
+
+@media  screen and (max-width: 1200px) {
+  .exams {
+    padding: 0 75px 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .exams {
+    padding: 0 30px;
+  }
+}

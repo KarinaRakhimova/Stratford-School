@@ -1,0 +1,36 @@
+.teachers {
+  background-color:  #334B35;
+  padding: 0 100px 50px;
+  color: wheat;
+  font-size: calc(10px + 14 * (100vw - 320px) / 960);
+  line-height: 1.35;
+}
+
+.teachers__list {
+  text-align: start;
+}
+
+.teachers__listItem {
+  list-style-type:circle;
+}
+.teachers__title {
+  text-align: center;
+}
+
+@media  screen and (max-width: 1200px) {
+  .teachers {
+    padding: 25px 75px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .teachers {
+    padding: 25px 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .teachers {
+    padding: 0 30px 25px;
+  }
+}

@@ -1,19 +1,19 @@
-/* * {
-  border: red 1px solid;
-} */
-
 .App {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Jost';
   text-align: center;
   min-height: 100vh;
-  padding: 50px;
-  background-color: white;
 }
 
-
-
-
-
-.license__scan {
-  width: 50%;
+/* @media (max-width: 992px) {
+  .App {
+    padding: 30px;
+  }
 }
 
+@media (max-width: 576px) {
+  .App {
+    padding: 25px;
+  }
+} */

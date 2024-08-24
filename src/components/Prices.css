@@ -1,0 +1,210 @@
+.prices {
+  padding: 0 100px 50px;
+  background-color:  #334B35;
+  color: wheat;
+  font-size:calc(12px + 14 * (100vw - 320px) / 960);
+}
+.prices__text {
+  text-align: justify;
+}
+.prices__table {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, min-content);
+  align-items: baseline;
+  grid-template-areas:
+    ". elementary elementary high high adult adult"
+    "minutes minutes_elementary45 minutes_elementary60 minutes_high45 minutes_high60 minutes_ind45 minutes_ind60"
+    "mini elementary45 elementary60 high45 high60 adult45 adult60"
+    "couple elementary45_couple elementary60_couple high45_couple high60_couple adult45_couple adult60_couple"
+    "ind elementary45_ind elementary60_ind high45_ind high60_ind adult45_ind adult60_ind"
+}
+ .prices__elementary {
+  grid-area: elementary;
+  /* padding: 1em 10px 0;
+  border-right: 2px solid wheat;
+  margin: 0; */
+}
+.prices__high {
+  grid-area: high;
+  /* padding: 1em 10px 0;
+  border-right: 2px solid wheat;
+  margin: 0; */
+  /* background-color: #000; */
+}
+.prices__adults {
+  grid-area: adult;
+}
+.prices__minutes {
+  grid-area: minutes;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+  /* margin: 0; */
+}
+.prices__minutes_elementary45 {
+  grid-area: minutes_elementary45;
+}
+.prices__minutes_elementary60 {
+  grid-area: minutes_elementary60;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+}
+.prices__minutes_high45 {
+  grid-area: minutes_high45;
+}
+.prices__minutes_high60 {
+  grid-area: minutes_high60;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+}
+.prices__minutes_ind45 {
+  grid-area: minutes_ind45;
+}
+.prices__minutes_ind60 {
+  grid-area: minutes_ind60;
+}
+.prices__mini {
+  grid-area: mini;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+  /* margin: 0; */
+}
+.prices__couple {
+  grid-area: couple;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+  /* margin: 0; */
+}
+.prices__ind {
+  grid-area: ind;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+  /* margin: 0; */
+}
+
+ .prices__elementary45 {
+  grid-area: elementary45;
+}
+
+.prices__elementary60 {
+  grid-area: elementary60;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+}
+.prices__high45 {
+  grid-area: high45;
+}
+.prices__high60 {
+  grid-area: high60;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+}
+
+.prices__adult45 {
+  grid-area: adult45;
+}
+.prices__adult60 {
+  grid-area: adult60;
+}
+
+.prices__elementary45_couple {
+  grid-area: elementary45_couple;
+}
+.prices__elementary60_couple {
+  grid-area: elementary60_couple;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+}
+
+.prices__high45_couple {
+  grid-area: high45_couple;
+}
+
+.prices__high60_couple {
+  grid-area: high60_couple;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+}
+
+.prices__adult45_couple {
+  grid-area: adult45_couple;
+}
+.prices__adult60_couple {
+  grid-area: adult60_couple;
+}
+.prices__elementary45_ind {
+  grid-area: elementary45_ind;
+}
+.prices__elementary60_ind {
+  grid-area: elementary60_ind;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+}
+.prices__high45_ind {
+  grid-area: high45_ind;
+}
+.prices__high60_ind {
+  grid-area: high60_ind;
+  /* padding: 1em 10px 1em 0; */
+  /* border-right: 2px solid wheat; */
+}
+.prices__adult45_ind {
+  grid-area: adult45_ind;
+}
+.prices__adult60_ind {
+  grid-area: adult60_ind;
+}
+
+.prices__item {
+  padding: 0.5em;
+
+}
+@media  screen and (max-width: 1200px) {
+  .prices {
+    padding: 0 75px 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .prices {
+    padding: 0 50px 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prices {
+    padding: 0 30px 25px;
+    font-size:18px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .prices__table {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(15, min-content);
+    align-items: baseline;
+    grid-template-areas:
+      ". elementary elementary "
+      "minutes minutes_elementary45 minutes_elementary60 "
+      "mini elementary45 elementary60 "
+      "couple elementary45_couple "
+      "elementary60_couple high45_couple high60_couple "
+      ". adult45_couple adult60_couple"
+      "ind elementary45_ind elementary60_ind "
+      ". high45_ind high60_ind "
+      ". adult45_ind adult60_ind"
+      ". high high"
+      ". minutes_high45 minutes_high60 "
+      ".  adult adult"
+      ". minutes_ind45 minutes_ind60"
+      ". high45 high60 "
+      ". adult45 adult60"
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .header__button {
+    height: 40px;
+
+  }
+}

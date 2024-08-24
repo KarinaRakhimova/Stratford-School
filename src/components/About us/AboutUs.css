@@ -1,0 +1,36 @@
+.aboutUs {
+  padding: 0 100px 50px;
+  background-color:  #334B35;
+  color: wheat;
+  font-size:calc(12px + 14 * (100vw - 320px) / 960);
+}
+
+
+.aboutUs__description {
+  line-height: 1.35;
+  text-align: start;
+
+}
+
+.aboutUs__accent {
+  color: #DC2C1D;
+  font-weight: 400;
+}
+
+@media  screen and (max-width: 1200px) {
+  .aboutUs {
+    padding: 25px 75px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .aboutUs {
+    padding: 25px 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutUs {
+    padding: 0 30px 15px;
+  }
+}

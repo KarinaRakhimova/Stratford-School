@@ -1,0 +1,37 @@
+.online {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 100px 50px;
+  background-color: #334B35;
+  color: wheat;
+  font-size: calc(10px + 14 * (100vw - 320px) / 960);
+  line-height: 1.35;
+}
+
+.online__image {
+  width: 75%;
+  border-radius: 15px;
+}
+
+.online__description {
+  width: 90%;
+  text-align: justify;
+}
+
+.online__title {
+  font-size: calc(14px + 14 * (100vw - 320px) / 960);
+}
+
+
+@media  screen and (max-width: 1200px) {
+  .online {
+    padding: 0 75px 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .online {
+    padding: 0 30px;
+  }
+}

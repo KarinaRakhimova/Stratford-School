@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Jost';
+  font-display: swap;
+  src:
+    local('Jost'),
+    url(./Jost/Jost-VariableFont_wght.ttf) format('ttf supports variations');
+}
+
+@font-face {
+  font-family: 'Ramshackle';
+  font-display: swap;
+  src:
+    local('Ramshackle'),
+    url(./Ramshackle/RamshackleRegular.ttf) format('ttf');
+}

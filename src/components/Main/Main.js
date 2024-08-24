@@ -1,10 +1,11 @@
 import "./Main.css";
-import mainImage from "../../images/group-teenagers-happy-be-back-university.jpg"
+import MyCarousel from "../Carousel/Carousel";
 function Main() {
   return(
     <section className="main">
-        <p className="main__description">Центр изучения иностранных языков Stratford School</p>
-        <img className="main__image" src={mainImage} alt="mainImage"/>
+        <p className="main__description">Языковой центр Stratford School.
+        С вами с 2012 года</p>
+        <MyCarousel/>
       </section>
   )
 }

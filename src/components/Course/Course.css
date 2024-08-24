@@ -1,0 +1,31 @@
+.course {
+  /* visibility: hidden; */
+  margin: 50px;
+}
+
+.course_opened {
+  visibility: visible;
+  transition: visibility 0.3s;
+
+}
+
+.course__container {
+  display: flex;
+  background: rgba(61, 114, 86, 0.1);
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.course__container:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.course__image {
+  width: 150px;
+  border-radius: 15px;
+}
+
+.course__description {
+  margin: 0;
+  text-align: justify;
+}
