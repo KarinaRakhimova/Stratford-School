@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Stratford-School/static/css/main.71288d17.css",
-    "main.js": "/Stratford-School/static/js/main.2c6df3f3.js",
+    "main.js": "/Stratford-School/static/js/main.33b04731.js",
     "static/media/online.jpg": "/Stratford-School/static/media/online.f8a270207444e84d6d9f.jpg",
     "static/media/studying by levels.jpg": "/Stratford-School/static/media/studying by levels.68a0df8cd17405c6c0b8.jpg",
     "static/media/speaking course.jpg": "/Stratford-School/static/media/speaking course.6d4ef2fe610f8808cf9a.jpg",
@@ -42,10 +42,10 @@
     "static/media/burgerIcon.svg": "/Stratford-School/static/media/burgerIcon.3dfffd04928fb7f84f86d09f9e0ac9cb.svg",
     "static/media/menuCloseIcon.svg": "/Stratford-School/static/media/menuCloseIcon.ea71769843fa292317f8b06b4498709e.svg",
     "main.71288d17.css.map": "/Stratford-School/static/css/main.71288d17.css.map",
-    "main.2c6df3f3.js.map": "/Stratford-School/static/js/main.2c6df3f3.js.map"
+    "main.33b04731.js.map": "/Stratford-School/static/js/main.33b04731.js.map"
   },
   "entrypoints": [
     "static/css/main.71288d17.css",
-    "static/js/main.2c6df3f3.js"
+    "static/js/main.33b04731.js"
   ]
 }
