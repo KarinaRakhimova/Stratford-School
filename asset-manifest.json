@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Stratford-School/static/css/main.eb204c37.css",
-    "main.js": "/Stratford-School/static/js/main.997a065b.js",
+    "main.css": "/Stratford-School/static/css/main.b43059d1.css",
+    "main.js": "/Stratford-School/static/js/main.b3333645.js",
+    "static/media/teachers' team.jpg": "/Stratford-School/static/media/teachers' team.b022536dbad6dd15523b.jpg",
     "static/media/online.jpg": "/Stratford-School/static/media/online.f8a270207444e84d6d9f.jpg",
     "static/media/studying by levels.jpg": "/Stratford-School/static/media/studying by levels.68a0df8cd17405c6c0b8.jpg",
     "static/media/speaking course.jpg": "/Stratford-School/static/media/speaking course.6d4ef2fe610f8808cf9a.jpg",
@@ -21,11 +22,11 @@
     "static/media/Stratford лого 1.png": "/Stratford-School/static/media/Stratford лого 1.7fe5f514bd06101d78c4.png",
     "static/media/solutions1.jpg": "/Stratford-School/static/media/solutions1.dad5fa92dd016a9f0c8b.jpg",
     "static/media/Jost-VariableFont_wght.ttf": "/Stratford-School/static/media/Jost-VariableFont_wght.34835cd554b7b71732e2.ttf",
-    "static/media/kids courses.jpg": "/Stratford-School/static/media/kids courses.6d8737054bf7e51d5046.jpg",
-    "static/media/adults courses.jpg": "/Stratford-School/static/media/adults courses.6700f7a673c434e19028.jpg",
+    "static/media/kids courses.jpg": "/Stratford-School/static/media/kids courses.74c13ae180c1ddb11690.jpg",
+    "static/media/adults courses.jpg": "/Stratford-School/static/media/adults courses.88ec9e5c30eb09807fca.jpg",
     "static/media/middleSchool.jpg": "/Stratford-School/static/media/middleSchool.bbca72fcec0f0c1847e9.jpg",
     "static/media/Cambridge exams.jpg": "/Stratford-School/static/media/Cambridge exams.94155150e09e74b04394.jpg",
-    "static/media/exams.jpg": "/Stratford-School/static/media/exams.94155150e09e74b04394.jpg",
+    "static/media/exams.jpg": "/Stratford-School/static/media/exams.c29181a9f0d82bc5b0b7.jpg",
     "static/media/be cool with stratford school.png": "/Stratford-School/static/media/be cool with stratford school.e6fd92a8722b72b773b7.png",
     "static/media/flyHigh4.jpg": "/Stratford-School/static/media/flyHigh4.3a8a19ac5978aaf933de.jpg",
     "static/media/flyHigh2.jpg": "/Stratford-School/static/media/flyHigh2.33e03a1dcc1aca2e4cda.jpg",
@@ -40,11 +41,11 @@
     "index.html": "/Stratford-School/index.html",
     "static/media/burgerIcon.svg": "/Stratford-School/static/media/burgerIcon.3dfffd04928fb7f84f86d09f9e0ac9cb.svg",
     "static/media/menuCloseIcon.svg": "/Stratford-School/static/media/menuCloseIcon.ea71769843fa292317f8b06b4498709e.svg",
-    "main.eb204c37.css.map": "/Stratford-School/static/css/main.eb204c37.css.map",
-    "main.997a065b.js.map": "/Stratford-School/static/js/main.997a065b.js.map"
+    "main.b43059d1.css.map": "/Stratford-School/static/css/main.b43059d1.css.map",
+    "main.b3333645.js.map": "/Stratford-School/static/js/main.b3333645.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb204c37.css",
-    "static/js/main.997a065b.js"
+    "static/css/main.b43059d1.css",
+    "static/js/main.b3333645.js"
   ]
 }
