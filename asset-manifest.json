@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Stratford-School/static/css/main.b43059d1.css",
-    "main.js": "/Stratford-School/static/js/main.b3333645.js",
+    "main.css": "/Stratford-School/static/css/main.b829edd7.css",
+    "main.js": "/Stratford-School/static/js/main.de6e7191.js",
     "static/media/teachers' team.jpg": "/Stratford-School/static/media/teachers' team.b022536dbad6dd15523b.jpg",
     "static/media/online.jpg": "/Stratford-School/static/media/online.f8a270207444e84d6d9f.jpg",
     "static/media/studying by levels.jpg": "/Stratford-School/static/media/studying by levels.68a0df8cd17405c6c0b8.jpg",
@@ -41,11 +41,11 @@
     "index.html": "/Stratford-School/index.html",
     "static/media/burgerIcon.svg": "/Stratford-School/static/media/burgerIcon.3dfffd04928fb7f84f86d09f9e0ac9cb.svg",
     "static/media/menuCloseIcon.svg": "/Stratford-School/static/media/menuCloseIcon.ea71769843fa292317f8b06b4498709e.svg",
-    "main.b43059d1.css.map": "/Stratford-School/static/css/main.b43059d1.css.map",
-    "main.b3333645.js.map": "/Stratford-School/static/js/main.b3333645.js.map"
+    "main.b829edd7.css.map": "/Stratford-School/static/css/main.b829edd7.css.map",
+    "main.de6e7191.js.map": "/Stratford-School/static/js/main.de6e7191.js.map"
   },
   "entrypoints": [
-    "static/css/main.b43059d1.css",
-    "static/js/main.b3333645.js"
+    "static/css/main.b829edd7.css",
+    "static/js/main.de6e7191.js"
   ]
 }
